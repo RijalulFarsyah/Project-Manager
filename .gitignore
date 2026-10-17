@@ -16,3 +16,12 @@ server/build/
 # OS files
 .DS_Store
 Thumbs.db
+
+*.backup
+*.backup2
+npx
+
+# Ignore accidental files & cache
+cookies.txt
+*.db-wal
+*.db-shm
