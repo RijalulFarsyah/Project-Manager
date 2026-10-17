@@ -294,3 +294,7 @@ proman/
 - If login fails, ensure seeder ran and admin account exists.
 - If session issues occur, check SESSION_SECRET and cookie configuration.
 - For API errors, check server terminal for detailed messages.
+
+## Tampilan Antarmuka (UI)
+![Dashboard](dashboard.png)
+![Gantt Chart](gantt.png)
