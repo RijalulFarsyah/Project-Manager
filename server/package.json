@@ -1,0 +1,22 @@
+{
+  "name": "proman-server",
+  "version": "1.0.0",
+  "description": "ProMan backend — Express + SQLite",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+
+    "express": "^4.21.0",
+    "express-session": "^1.18.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}
